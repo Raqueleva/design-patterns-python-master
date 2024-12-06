@@ -110,7 +110,7 @@ class UserDirector:
 if __name__ == "__main__":
     user_builder = UserBuilder()
     user_director = UserDirector(user_builder)
-    user1 = user_director.with_age('Luiz', 'Otávio', 30)
-    user2 = user_director.with_address('Maria', 'Miranda', 'Av Brasil')
+    user1 = user_director.with_age('Raquel', 'Evaristo', 43)
+    user2 = user_director.with_address('Helena', 'Soethe', 'Av Brasil')
     print(user1)
     print(user2)

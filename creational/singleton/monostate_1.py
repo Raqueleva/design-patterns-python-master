@@ -32,7 +32,7 @@ class MonoStateSimple(StringReprMixin):
 
 
 if __name__ == "__main__":
-    m1 = MonoStateSimple(nome='Luiz')
-    m2 = MonoStateSimple(sobrenome='Miranda')
+    m1 = MonoStateSimple(nome='Raquel')
+    m2 = MonoStateSimple(sobrenome='Evaristo')
     print(m1)
     print(m2)

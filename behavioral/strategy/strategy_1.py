@@ -66,11 +66,11 @@ if __name__ == "__main__":
     order = Order(1000, fifty_percent)
     print(order.total, order.total_with_discount)
 
-    order = Order(1000, no_discount)
+    order = Order(7000, no_discount)
     print(order.total, order.total_with_discount)
 
-    order = Order(1000, five_percent)
+    order = Order(15000, five_percent)
     print(order.total, order.total_with_discount)
 
-    order = Order(1000, CustomDiscount(13))
+    order = Order(500, CustomDiscount(50))
     print(order.total, order.total_with_discount)
