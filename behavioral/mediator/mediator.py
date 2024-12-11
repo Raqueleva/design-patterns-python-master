@@ -97,20 +97,20 @@ class Chatroom(Mediator):
 if __name__ == "__main__":
     chat = Chatroom()
 
-    joao = Person('João', chat)
-    maria = Person('Maria', chat)
-    elis = Person('Elis', chat)
-    jose = Person('José', chat)
+    raquel = Person('Raquel', chat)
+    helena = Person('Helena', chat)
+    henrique = Person('Henrique', chat)
+    estevan = Person('Estevan', chat)
 
-    chat.add(joao)
-    chat.add(maria)
-    chat.add(elis)
-    chat.add(jose)
+    chat.add(raquel)
+    chat.add(helena)
+    chat.add(henrique)
+    # chat.add(estevan)
 
-    joao.broadcast('Olá pessoas')
-    maria.broadcast('Fala, beleza?')
-    jose.broadcast('Eu não fui adicionado ao chat...')
+    raquel.broadcast('Olá pessoas')
+    helena.broadcast('Fala, beleza?')
+    estevan.broadcast('Eu não fui adicionado ao chat...')
 
     print()
-    joao.send_direct('Maria', 'Oi Maria, tudo bem?')
-    maria.send_direct('João', 'Bem e você?')
+    raquel.send_direct('Helena', 'Oi Helena, tudo bem?')
+    helena.send_direct('Raquel', 'Bem e você?')

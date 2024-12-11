@@ -101,17 +101,17 @@ class UserProxy(IUser):
 
 
 if __name__ == "__main__":
-    luiz = UserProxy('Luiz', 'Otávio')
+    raquel = UserProxy('Raquel', 'Evaristo')
 
     # Responde instantaneamente
-    print(luiz.firstname)
-    print(luiz.lastname)
+    print(raquel.firstname)
+    print(raquel.lastname)
 
     # Responde em 6 segundos porque vem do real subject
-    print(luiz.get_all_user_data())
-    print(luiz.get_addresses())
+    print(raquel.get_all_user_data())
+    print(raquel.get_addresses())
 
     # Responde instantaneamente (porque está em cache)
     print('CACHED DATA:')
     for i in range(50):
-        print(luiz.get_addresses())
+        print(raquel.get_addresses())

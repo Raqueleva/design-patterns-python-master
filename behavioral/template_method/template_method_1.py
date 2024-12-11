@@ -49,7 +49,7 @@ class ConcreteClass2(Abstract):
         print('Operaçao 1 concluída (de maneira diferente)')
 
     def operation2(self) -> None:
-        print('Operaçao 2 concluída  (de maneira diferente)')
+        print('Operaçao 2 concluída (de maneira diferente)')
 
 
 if __name__ == "__main__":

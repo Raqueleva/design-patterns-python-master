@@ -79,11 +79,11 @@ class MyList(Iterable):
 
 if __name__ == "__main__":
     mylist = MyList()
-    mylist.add('Luiz')
-    mylist.add('Maria')
-    mylist.add('João')
+    mylist.add('Raquel')
+    mylist.add('Helena')
+    mylist.add('Henrique')
 
-    # print(mylist)
+    print(mylist)
 
     for value in mylist:
         print(value)
