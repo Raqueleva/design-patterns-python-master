@@ -128,11 +128,11 @@ if __name__ == "__main__":
     print(simple_hotdog)
 
     bacon_simple_hotdog = HotdogDecorator(simple_hotdog, Bacon())
-    egg_bacon_simple_hotdog = HotdogDecorator(bacon_simple_hotdog, Egg())
+    print(bacon_simple_hotdog)
 
-    mashed_potato_egg_bacon_simple_hotdog = HotdogDecorator(
-        egg_bacon_simple_hotdog,
-        MashedPotatoes()
-    )
+    egg_bacon_simple_hotdog = HotdogDecorator(bacon_simple_hotdog, Egg())
+    print(egg_bacon_simple_hotdog)
+
+    mashed_potato_egg_bacon_simple_hotdog = HotdogDecorator(egg_bacon_simple_hotdog,MashedPotatoes())
 
     print(mashed_potato_egg_bacon_simple_hotdog)

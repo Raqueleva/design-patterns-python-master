@@ -110,10 +110,10 @@ if __name__ == "__main__":
     luiz.add_address(a1)
     luiz.list_addresses()
 
-    joana = Client('joana')
-    joana.address_number = '250A'
-    joana.address_details = 'AP 555'
-    joana.add_address(a2)
-    joana.list_addresses()
+    raquel = Client('raquel')
+    raquel.address_number = '250A'
+    raquel.address_details = 'AP 555'
+    raquel.add_address(a2)
+    raquel.list_addresses()
 
     print(a1 == a2)
